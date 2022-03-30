@@ -1,9 +1,15 @@
+import { useEffect } from 'react'
+
 import BoardContent from '../../components/BoardContent'
 import Layout from '../../components/Layout'
 import Option from '../../components/Option'
+import { ITEM, useItems } from '../../contexts/ItemsContext'
 
 const Board = () => {
-  // collect stone
+  const { collect } = useItems()
+
+  // collect the stone
+  useEffect(() => collect(ITEM.STONE), [])
 
   return (
     <Layout>
