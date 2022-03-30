@@ -1,20 +1,23 @@
 import BoardContent from '../../components/BoardContent'
+import End from '../../components/End'
 import Layout from '../../components/Layout'
-import Option from '../../components/Option'
 
 const Board = () => {
   return (
     <Layout>
       <BoardContent>
         <p>
-          Você ao ver os pequenos pontos de luz nas janelas, Decide gritar novamente por ajuda, mais pontos se iluminam
-          nas construções, Iluminando quase todas as janelas, As Luzes dos Postes começam a Piscar mais freneticamente,
-          e voce sente um frio correr em sua espinha enquanto uma leve brisa gélida sussurra em seu ouvido como um som
-          de “Shhhhhhhhhh”.
+          Indo contra todos os seus instintos mais Primais, você decide gritar novamente por ajuda enquanto observa
+          aqueles pontos lhe observando. As ultimas janelas apagadas finalmente se acendem, e as luzes dos postes
+          começam a piscar em uma velocidade abominável, até que... elas estouram, a rua inteira fica escura, a neblina
+          que antes era suave como parafina, se tornou espeça como algodão, o frio que antes era tolerável se tornou
+          gelado como uma tormenta. enquanto seu queixo trepida devido ao frio inigualável, seus sentidos pouco a pouco
+          vão se amortecendo, e no meio da névoa, pequenos pontos de luz, sempre em dupla, começam a surgir ao seu
+          redor, lhe cercando por completo,sua consciência começa lentamente a apagar enquanto o sussurrar do vento ecoa
+          em seu ouvido com um novamente e singelo, “Shhhhhhhhhhhh” .
         </p>
-        <p>Você sente que talvez deva ficar em silêncio.</p>
       </BoardContent>
-      <Option board={8}>Você grita mais uma vez por alguém</Option>
+      <End end={2}>Fim de jogo</End>
     </Layout>
   )
 }

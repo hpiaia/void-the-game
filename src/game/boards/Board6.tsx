@@ -7,10 +7,13 @@ const Board = () => {
     <Layout>
       <BoardContent>
         <p>
-          Após uma longa caminhada, você finalmente se depara com o fim desta rua. a sua frente, uma espessa neblina
-          Azul e Vermelha dança entre si formando uma película quase marmorizada, mas harmonizada, voce toca ela e
-          percebe que ela cria uma tensão elástica, como se estivesse barrando sua passagem, mas não totalmente te
-          impedindo, um frio na barriga lhe corre ao fazer isso.
+          Você percebendo que não há muito o que fazer, E decide seguir rumo pela solitária estrada nublada, as luzes
+          piscando em direção do alem parecem lhe guiar entre o nevoeiro que se torna cada vez menos espeço, as janelas
+          que antes cobriam as paredes, foram tomadas por um infinito manto de massa corrida, que ja velha e degradada
+          pelo tempo, apresenta diversas fissuras ao seu longo, e entre essas fissuras, um abismo negro parece se
+          expandir infinitamente para seu interior. a parede a esquerda começa lentamente a tomar tons de vermelho, que
+          vagarosamente vão formando um degradê até atingir o mais puro Carmesim . á Parede a direita quase que segue o
+          mesmo padrão, mas seguindo de um azul cristalino para um Azul Maculado e sujo.
         </p>
       </BoardContent>
       <Option board={7}>Continuar</Option>

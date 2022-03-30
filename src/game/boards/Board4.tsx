@@ -7,25 +7,14 @@ const Board = () => {
     <Layout>
       <BoardContent>
         <p>
-          Voce decide forçar sua passagem pela barricada, uma das tábuas que bloqueava a passagem estava meio solta e
-          apartir dali você consegue abrir uma pequena passagem para se esgueirar. o Local é lotado de mesas, cadeiras,
-          carros e tudo que se possa imaginar empilhados um em cima do outro, você começa lentamente a se arrastar por
-          algumas aberturas tentando tomar cuidado com a estrutura instável do local, e após algum tempo você vê
-          finalmente uma saida,uma pequena e apertada saida.
+          Você ao ver os pequenos pontos de luz nas janelas, Decide gritar novamente por ajuda, mais pontos se iluminam
+          nas construções, Iluminando quase todas as janelas, As Luzes dos Postes começam a Piscar mais freneticamente,
+          e você sente um frio correr em sua espinha enquanto uma leve brisa gélida sussurra em seu ouvido como um som
+          de “Shhhhhhhhhh”.
         </p>
-        <p>
-          Você se sente como um bebê prestes a nascer, a parte de cima do seu torso passa facilmente, mas acaba
-          entalando na abertura, você se meche e remeche tentando se desprender, até que sente-se mais leve, você
-          consegue rastejar para fora, mas não consegue ficar em pé. quando olha para trás, vê 2 figuras de negras de
-          sobretudo te encarando , 1 delas segura uma pequena corrente que liga à passagem por qual você se esgueirou ,
-          e nela conecta-se uma grande lamina manchada de sangue que agora tampa o buraco por qual passou, e esse sangue
-          forma um rastro até o seu torso, que agora está separado da sua parte inferior. você perde totalmente suas
-          forças enquanto ambas as figuras se aproximam e seu sangue jora para fora, lentamente sua consciencia vai se
-          apagando até que apenas a escuridão reste em sua mente.
-        </p>
+        <p>Você sente que talvez deva ficar em silêncio.</p>
       </BoardContent>
-
-      <Option board={0}>FIM DE JOGO</Option>
+      <Option board={5}>Você grita mais uma vez por alguém</Option>
     </Layout>
   )
 }

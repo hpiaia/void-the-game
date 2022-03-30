@@ -6,9 +6,14 @@ const Board = () => {
   return (
     <Layout>
       <BoardContent>
-        <p>Quadro</p>
+        <p>
+          Após uma longa caminhada, você finalmente se depara com o fim desta rua. a sua frente, uma espessa neblina
+          Azul e Vermelha dança entre si formando uma película quase marmorizada, mas harmonizada, você toca ela e
+          percebe que ela cria uma tensão elástica, como se estivesse barrando sua passagem, mas não totalmente te
+          impedindo, um frio na barriga lhe corre ao fazer isso.
+        </p>
       </BoardContent>
-      <Option board={0}>Opção</Option>
+      <Option board={8}>Continuar</Option>
     </Layout>
   )
 }

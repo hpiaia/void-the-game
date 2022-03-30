@@ -13,8 +13,8 @@ const Board = () => {
         </p>
       </BoardContent>
       <Option board={1}>Você observa os seus arredores</Option>
-      <Option board={2}>Você grita por alguém</Option>
-      <Option board={3}>Você segue em direção às luzes</Option>
+      <Option board={3}>Você grita por alguém</Option>
+      <Option board={6}>Você segue em direção às luzes</Option>
     </Layout>
   )
 }

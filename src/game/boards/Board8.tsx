@@ -7,17 +7,13 @@ const Board = () => {
     <Layout>
       <BoardContent>
         <p>
-          Indo contra todos os seus instintos mais primais, você decide gritar novamente por ajuda enquanto observa
-          aqueles pontos lhe observando. As ultimas janelas apagadas finalmente se acendem, e as luzes dos postes
-          começam a piscar em uma velocidade abominável, até que... elas estouram, a rua inteira fica escura, a neblina
-          que antes era suave como parafina, se tornou espeça como algodão, o frio que antes era tolerável se tornou
-          gelado como uma tormenta. enquanto seu queixo trepida devido ao frio inigualável, seus sentidos pouco a pouco
-          vão se amortecendo, e no meio da névoa, pequenos pontos de luz, sempre em dupla, começam a surgir ao seu
-          redor, lhe cercando por completo,sua consciência começa lentamente a apagar enquanto o sussurrar do vento ecoa
-          em seu ouvido com um novamente e singelo, “Shhhhhhhhhhhh” .
+          Á sua esquerda, aquele grande paredão Carmesim que antes corria infinitamente agora dispõe de um enorme
+          buraco, uma leve luz Irradia entre seu interior e as fissuras das paredes, e uma leve brisa quente é expelida
+          por sua entrada, tornando-o um caminho convidativo e aconchegante devido ao frio geral que se extende pela
+          rua.
         </p>
       </BoardContent>
-      <Option board={0}>FIM DE JOGO</Option>
+      <Option board={9}>Continuar</Option>
     </Layout>
   )
 }
