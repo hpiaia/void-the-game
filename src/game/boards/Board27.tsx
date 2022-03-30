@@ -8,7 +8,7 @@ const Board = () => {
       <BoardContent>
         <p>
           Você bota rapidamente o óculos para ver se alguma coisa acontece e percebe q a parte vermelha da barreira de
-          névoa desaparece quando com o óculos , então agora só falta mais uma lente , e ela provavelmente está no outro
+          névoa desaparece quando com o óculos, então agora só falta mais uma lente, e ela provavelmente está no outro
           caminho.
         </p>
       </BoardContent>

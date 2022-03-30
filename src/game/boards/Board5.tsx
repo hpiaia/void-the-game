@@ -14,7 +14,7 @@ const Board = () => {
           gelado como uma tormenta. enquanto seu queixo trepida devido ao frio inigualável, seus sentidos pouco a pouco
           vão se amortecendo, e no meio da névoa, pequenos pontos de luz, sempre em dupla, começam a surgir ao seu
           redor, lhe cercando por completo,sua consciência começa lentamente a apagar enquanto o sussurrar do vento ecoa
-          em seu ouvido com um novamente e singelo, “Shhhhhhhhhhhh” .
+          em seu ouvido com um novamente e singelo, “Shhhhhhhhhhhh”.
         </p>
       </BoardContent>
       <End end={2}>Fim de jogo</End>

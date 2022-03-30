@@ -33,6 +33,8 @@ import Board26 from './game/boards/Board26'
 import Board27 from './game/boards/Board27'
 import End1 from './game/ends/End1'
 import End2 from './game/ends/End2'
+import End3 from './game/ends/End3'
+import End4 from './game/ends/End4'
 import Start from './game/Start'
 
 ReactDOM.render(
@@ -71,6 +73,8 @@ ReactDOM.render(
 
       <Route path="/ends/1" element={<End1 />} />
       <Route path="/ends/2" element={<End2 />} />
+      <Route path="/ends/3" element={<End3 />} />
+      <Route path="/ends/4" element={<End4 />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

@@ -7,7 +7,10 @@ interface Props {
 
 const Option: FC<Props> = ({ end, children }) => {
   return (
-    <Link to={`/ends/${end}`} className="mx-auto my-8 block w-96 border-t border-b py-2 text-center">
+    <Link
+      to={`/ends/${end}`}
+      className="font-grenze mx-auto my-8 block w-96 border-t border-b py-2 text-center text-xl font-light"
+    >
       {children}
     </Link>
   )

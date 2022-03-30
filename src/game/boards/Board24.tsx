@@ -7,8 +7,8 @@ const Board = () => {
     <Layout>
       <BoardContent>
         <p>
-          &quot;Talvez você devesse parar um pouco , já foram tantas vezes e apenas dor você encontrou , eu sei que pode
-          ser mais uma vez mas , se quiser , eu posso deixa-lo mais confortável e parar essa dor por um momento&quot;,
+          &quot;Talvez você devesse parar um pouco, já foram tantas vezes e apenas dor você encontrou, eu sei que pode
+          ser mais uma vez mas, se quiser, eu posso deixa-lo mais confortável e parar essa dor por um momento&quot;,
           enquanto ela fala isso ela estende seus braços como se estivesse de abrindo para um abraço.
         </p>
       </BoardContent>

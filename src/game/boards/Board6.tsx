@@ -12,7 +12,7 @@ const Board = () => {
           que antes cobriam as paredes, foram tomadas por um infinito manto de massa corrida, que ja velha e degradada
           pelo tempo, apresenta diversas fissuras ao seu longo, e entre essas fissuras, um abismo negro parece se
           expandir infinitamente para seu interior. a parede a esquerda começa lentamente a tomar tons de vermelho, que
-          vagarosamente vão formando um degradê até atingir o mais puro Carmesim . á Parede a direita quase que segue o
+          vagarosamente vão formando um degradê até atingir o mais puro Carmesim. á Parede a direita quase que segue o
           mesmo padrão, mas seguindo de um azul cristalino para um Azul Maculado e sujo.
         </p>
       </BoardContent>
