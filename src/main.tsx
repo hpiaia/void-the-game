@@ -1,7 +1,7 @@
 import './main.css'
 
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { MemoryRouter, Route, Routes } from 'react-router-dom'
 
 import { ItemsProvider } from './contexts/ItemsContext'
 import Board0 from './game/boards/Board0'
@@ -57,7 +57,7 @@ import End7 from './game/ends/End7'
 import Start from './game/Start'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <MemoryRouter>
     <ItemsProvider>
       <Routes>
         <Route path="/" element={<Start />} />
@@ -115,6 +115,6 @@ ReactDOM.render(
         <Route path="/ends/7" element={<End7 />} />
       </Routes>
     </ItemsProvider>
-  </BrowserRouter>,
+  </MemoryRouter>,
   document.getElementById('root')
 )
