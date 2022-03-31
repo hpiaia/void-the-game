@@ -13,7 +13,7 @@ const Board = () => {
           passagem desapareceu completamente.
         </p>
       </BoardContent>
-      <Option board={9}>Continuar</Option>
+      <Option board={9}>Voltar ao início da névoa</Option>
     </Layout>
   )
 }

@@ -13,8 +13,7 @@ const Board = () => {
           mais.&quot;
         </p>
       </BoardContent>
-      <Option board={40}>Não apagar</Option>
-      <Option board={41}>Apagar</Option>
+      <Option board={40}>Continuar</Option>
     </Layout>
   )
 }
