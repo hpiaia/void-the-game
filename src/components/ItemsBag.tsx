@@ -3,7 +3,7 @@ import { ITEM, useItems } from '../contexts/ItemsContext'
 const itemsNames = {
   [ITEM.STONE]: 'Pedra',
   [ITEM.TORCH]: 'Tocha',
-  [ITEM.OCULUS]: 'Óculos',
+  [ITEM.GLASSES]: 'Óculos',
 }
 
 const ItemsBag = () => {

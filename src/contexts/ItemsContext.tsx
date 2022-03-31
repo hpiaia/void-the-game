@@ -3,7 +3,7 @@ import { createContext, FC, useContext, useEffect, useState } from 'react'
 export enum ITEM {
   STONE,
   TORCH,
-  OCULUS,
+  GLASSES,
 }
 
 interface ContextData {

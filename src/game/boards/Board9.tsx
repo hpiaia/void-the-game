@@ -17,7 +17,7 @@ const Board = () => {
       </BoardContent>
       <Option board={10}>Você segue a trilha da esquerda</Option>
       <Option board={has(ITEM.TORCH) ? 35 : 34}>Você segue a trilha da direita</Option>
-      <Option board={has(ITEM.OCULUS) ? 30 : 29}>Você toca na barreira de névoa</Option>
+      <Option board={has(ITEM.GLASSES) ? 30 : 29}>Você toca na barreira de névoa</Option>
       <Option board={28}>Inspecionar item no chão</Option>
     </Layout>
   )

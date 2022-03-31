@@ -8,8 +8,8 @@ import { ITEM, useItems } from '../../contexts/ItemsContext'
 const Board = () => {
   const { collect } = useItems()
 
-  // collect oculus
-  useEffect(() => collect(ITEM.OCULUS), [])
+  // collect glasses
+  useEffect(() => collect(ITEM.GLASSES), [])
 
   return (
     <Layout>
