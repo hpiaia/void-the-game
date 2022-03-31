@@ -11,8 +11,8 @@ const Board = () => {
           OUSE RESPONDER AO SEU PAI, AGORA APAGUE ESSA TOCHA NOJENTA OU SE NAO...&quot;.
         </p>
       </BoardContent>
-      <Option board={37}>Apagar</Option>
-      <Option board={37}>Não apagar</Option>
+      <Option board={39}>Apagar</Option>
+      <Option board={41}>Não apagar</Option>
     </Layout>
   )
 }

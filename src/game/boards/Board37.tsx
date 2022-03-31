@@ -15,7 +15,7 @@ const Board = () => {
           acha que conseguiria fugir desse Ser que está parado a sua frente.
         </p>
       </BoardContent>
-      <Option board={37}>Continuar</Option>
+      <Option board={38}>Continuar</Option>
     </Layout>
   )
 }
