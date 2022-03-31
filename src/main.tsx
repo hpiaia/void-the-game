@@ -33,10 +33,27 @@ import Board25 from './game/boards/Board25'
 import Board26 from './game/boards/Board26'
 import Board27 from './game/boards/Board27'
 import Board28 from './game/boards/Board28'
+import Board29 from './game/boards/Board29'
+import Board30 from './game/boards/Board30'
+import Board31 from './game/boards/Board31'
+import Board32 from './game/boards/Board32'
+import Board33 from './game/boards/Board33'
+import Board34 from './game/boards/Board34'
+import Board35 from './game/boards/Board35'
+import Board36 from './game/boards/Board36'
+import Board37 from './game/boards/Board37'
+import Board38 from './game/boards/Board38'
+import Board39 from './game/boards/Board39'
+import Board40 from './game/boards/Board40'
+import Board41 from './game/boards/Board41'
+import Board42 from './game/boards/Board42'
 import End1 from './game/ends/End1'
 import End2 from './game/ends/End2'
 import End3 from './game/ends/End3'
 import End4 from './game/ends/End4'
+import End5 from './game/ends/End5'
+import End6 from './game/ends/End6'
+import End7 from './game/ends/End7'
 import Start from './game/Start'
 
 ReactDOM.render(
@@ -74,11 +91,28 @@ ReactDOM.render(
         <Route path="/boards/26" element={<Board26 />} />
         <Route path="/boards/27" element={<Board27 />} />
         <Route path="/boards/28" element={<Board28 />} />
+        <Route path="/boards/29" element={<Board29 />} />
+        <Route path="/boards/30" element={<Board30 />} />
+        <Route path="/boards/31" element={<Board31 />} />
+        <Route path="/boards/32" element={<Board32 />} />
+        <Route path="/boards/33" element={<Board33 />} />
+        <Route path="/boards/34" element={<Board34 />} />
+        <Route path="/boards/35" element={<Board35 />} />
+        <Route path="/boards/36" element={<Board36 />} />
+        <Route path="/boards/37" element={<Board37 />} />
+        <Route path="/boards/38" element={<Board38 />} />
+        <Route path="/boards/39" element={<Board39 />} />
+        <Route path="/boards/40" element={<Board40 />} />
+        <Route path="/boards/41" element={<Board41 />} />
+        <Route path="/boards/42" element={<Board42 />} />
 
         <Route path="/ends/1" element={<End1 />} />
         <Route path="/ends/2" element={<End2 />} />
         <Route path="/ends/3" element={<End3 />} />
         <Route path="/ends/4" element={<End4 />} />
+        <Route path="/ends/5" element={<End5 />} />
+        <Route path="/ends/6" element={<End6 />} />
+        <Route path="/ends/7" element={<End7 />} />
       </Routes>
     </ItemsProvider>
   </BrowserRouter>,

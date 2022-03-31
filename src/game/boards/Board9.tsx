@@ -1,8 +1,11 @@
 import BoardContent from '../../components/BoardContent'
 import Layout from '../../components/Layout'
 import Option from '../../components/Option'
+import { ITEM, useItems } from '../../contexts/ItemsContext'
 
 const Board = () => {
+  const { has } = useItems()
+
   return (
     <Layout>
       <BoardContent>
@@ -13,7 +16,8 @@ const Board = () => {
         </p>
       </BoardContent>
       <Option board={10}>Você segue a trilha da esquerda</Option>
-      <Option board={-1}>Você toca na barreira de névoa</Option>
+      <Option board={has(ITEM.TORCH) ? 35 : 34}>Você segue a trilha da direita</Option>
+      <Option board={has(ITEM.OCULUS) ? 30 : 29}>Você toca na barreira de névoa</Option>
       <Option board={28}>Inspecionar item no chão</Option>
     </Layout>
   )

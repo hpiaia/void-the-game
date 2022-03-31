@@ -7,12 +7,12 @@ const Board = () => {
     <Layout>
       <BoardContent>
         <p>
-          Você bota rapidamente o óculos para ver se alguma coisa acontece e percebe q a parte vermelha da barreira de
-          névoa desaparece quando com o óculos, então agora só falta mais uma lente, e ela provavelmente está no outro
-          caminho.
+          Quando você toma um pouco de coragem, e decide falar algo, ele grita novamente &quot;CALE A BOCA CRIANÇA, NAO
+          OUSE RESPONDER AO SEU PAI, AGORA APAGUE ESSA TOCHA NOJENTA OU SE NAO...&quot;.
         </p>
       </BoardContent>
-      <Option board={9}>Voltar</Option>
+      <Option board={37}>Apagar</Option>
+      <Option board={37}>Não apagar</Option>
     </Layout>
   )
 }

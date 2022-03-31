@@ -7,9 +7,8 @@ const Board = () => {
     <Layout>
       <BoardContent>
         <p>
-          Você bota rapidamente o óculos para ver se alguma coisa acontece e percebe q a parte vermelha da barreira de
-          névoa desaparece quando com o óculos, então agora só falta mais uma lente, e ela provavelmente está no outro
-          caminho.
+          A escuridão espessa ofusca completamente sua visão, um medo inigualavel toma conta de todo o seu ser e você se
+          sente obrservado, você teme pela sua vida e não ousa por os pés lá dentro
         </p>
       </BoardContent>
       <Option board={9}>Voltar</Option>
